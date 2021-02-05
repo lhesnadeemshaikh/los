@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-05T20:52:47.687Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="2JaGaX37Yd1XWAjLUhUy" version="14.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-02-05T21:01:14.559Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="AlHvmKhtpiWEpSBGqI5s" version="14.2.9" type="github" pages="3">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -597,7 +597,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Vnwm4c8hBKzlIiC-nxyH-40" value="Update Batch &amp;amp; BatchItem Status Failed" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="Vnwm4c8hBKzlIiC-nxyH-1">
+        <mxCell id="Vnwm4c8hBKzlIiC-nxyH-40" value="Update Batch &amp;amp; BatchItem Status Failed.&lt;br&gt;or Partial Complete" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="Vnwm4c8hBKzlIiC-nxyH-1">
           <mxGeometry x="360" y="760" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Vnwm4c8hBKzlIiC-nxyH-45" value="8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=block;endFill=1;" edge="1" parent="Vnwm4c8hBKzlIiC-nxyH-1" source="Vnwm4c8hBKzlIiC-nxyH-42" target="Vnwm4c8hBKzlIiC-nxyH-44">
@@ -608,7 +608,7 @@
         <mxCell id="Vnwm4c8hBKzlIiC-nxyH-42" value="Email Prod Support&lt;br&gt;Printing failed" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="Vnwm4c8hBKzlIiC-nxyH-1">
           <mxGeometry x="480" y="760" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Vnwm4c8hBKzlIiC-nxyH-44" value="Fail the entire Hangfire Job" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="Vnwm4c8hBKzlIiC-nxyH-1">
+        <mxCell id="Vnwm4c8hBKzlIiC-nxyH-44" value="Fail the&amp;nbsp; Hangfire Print&lt;br&gt;Job (B)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="Vnwm4c8hBKzlIiC-nxyH-1">
           <mxGeometry x="600" y="760" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Vnwm4c8hBKzlIiC-nxyH-49" value="7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=block;endFill=1;" edge="1" parent="Vnwm4c8hBKzlIiC-nxyH-1" source="Vnwm4c8hBKzlIiC-nxyH-46" target="Vnwm4c8hBKzlIiC-nxyH-48">
