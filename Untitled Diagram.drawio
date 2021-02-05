@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-05T21:01:14.559Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="AlHvmKhtpiWEpSBGqI5s" version="14.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-02-05T21:03:57.163Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="k52jrG8OGuS9SuJg7lsW" version="14.2.9" type="github" pages="3">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -434,7 +434,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="78nLcjnqLFZzO-8Tf4lb" name="Page-3">
-    <mxGraphModel dx="1422" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2272" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="Vnwm4c8hBKzlIiC-nxyH-0" />
         <mxCell id="Vnwm4c8hBKzlIiC-nxyH-1" parent="Vnwm4c8hBKzlIiC-nxyH-0" />
@@ -638,6 +638,15 @@
             <mxPoint x="10" y="500" as="sourcePoint" />
             <mxPoint x="820" y="500" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Vnwm4c8hBKzlIiC-nxyH-58" value="Job (A) ends here as succeeded" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Vnwm4c8hBKzlIiC-nxyH-1">
+          <mxGeometry x="-1" y="891" width="72" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnwm4c8hBKzlIiC-nxyH-60" value="Job (B) ends here as failed" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Vnwm4c8hBKzlIiC-nxyH-1">
+          <mxGeometry x="701" y="768" width="72" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="Vnwm4c8hBKzlIiC-nxyH-61" value="Job (B) ends here as succeeded" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Vnwm4c8hBKzlIiC-nxyH-1">
+          <mxGeometry x="744" y="1006" width="72" height="64" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
