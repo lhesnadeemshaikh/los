@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-27T03:08:08.351Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="qeH4WvubtiMLLCuQ67Mn" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-27T03:44:18.172Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="CgqvGhq414AsCP5XOJMx" version="14.4.3" type="github">
   <diagram id="-3h6BerCHnD2BclY9v3j" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -50,20 +50,152 @@
         <mxCell id="4r566B2qR2Llp7iFAkGa-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4r566B2qR2Llp7iFAkGa-16" target="4r566B2qR2Llp7iFAkGa-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4r566B2qR2Llp7iFAkGa-16" value="Calls Stored Proc&lt;br&gt;Passes the Date" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="4r566B2qR2Llp7iFAkGa-16" value="Calls Stored Proc&lt;br&gt;Passes the Date&lt;br&gt;&amp;amp; BatchId" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="160" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4r566B2qR2Llp7iFAkGa-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4r566B2qR2Llp7iFAkGa-18" target="4r566B2qR2Llp7iFAkGa-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="632" y="260" />
+              <mxPoint x="740" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-33" value="Update Batch&lt;br&gt;Complete&lt;br&gt;if 0 Loans" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4r566B2qR2Llp7iFAkGa-18" target="4r566B2qR2Llp7iFAkGa-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4r566B2qR2Llp7iFAkGa-18" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.databases.database_server_blue;" vertex="1" parent="1">
-          <mxGeometry x="718.5" y="280" width="43" height="57" as="geometry" />
+          <mxGeometry x="610" y="171.5" width="43" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="4r566B2qR2Llp7iFAkGa-20" value="Returns a List of Loans with ProbabilityFunding Auto Decision &amp;amp;&lt;br&gt;Reminder" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="400" width="120" height="80" as="geometry" />
+        <mxCell id="4r566B2qR2Llp7iFAkGa-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4r566B2qR2Llp7iFAkGa-20" target="4r566B2qR2Llp7iFAkGa-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-20" value="Returns Loans&lt;br&gt;1. AutoDecision&lt;br&gt;2. Reminder if&amp;nbsp;&lt;br&gt;not open" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="280" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4r566B2qR2Llp7iFAkGa-22" value="Creates A Batch Record with 0 BatchItem" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4r566B2qR2Llp7iFAkGa-24" target="4r566B2qR2Llp7iFAkGa-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-24" value="Job creates&lt;br&gt;BatchItem per loan&lt;br&gt;use SerialzedData&lt;br&gt;to Store &lt;br&gt;OperationType" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-29" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4r566B2qR2Llp7iFAkGa-26" target="4r566B2qR2Llp7iFAkGa-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-31" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4r566B2qR2Llp7iFAkGa-26" target="4r566B2qR2Llp7iFAkGa-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-34" value="Unhandled Error" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="4r566B2qR2Llp7iFAkGa-26" target="4r566B2qR2Llp7iFAkGa-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="260" />
+              <mxPoint x="69" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-26" value="If Auto Decision" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="4r566B2qR2Llp7iFAkGa-28" target="4r566B2qR2Llp7iFAkGa-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="440" />
+              <mxPoint x="20" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-28" value="Schedule Reminder&lt;br&gt;JobProcessor" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="360" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="4r566B2qR2Llp7iFAkGa-30" target="4r566B2qR2Llp7iFAkGa-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="400" />
+              <mxPoint x="100" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-30" value="Schedule Auto Decision&lt;br&gt;JobProcessor" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="200" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-32" value="Email Prod.Support" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.exchange_client_access_server;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="57" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4r566B2qR2Llp7iFAkGa-39" target="4r566B2qR2Llp7iFAkGa-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-39" value="Update&lt;br&gt;BatchItem&lt;br&gt;Process Started" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="520" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4r566B2qR2Llp7iFAkGa-36" target="4r566B2qR2Llp7iFAkGa-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-44" value="Exist" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4r566B2qR2Llp7iFAkGa-41" target="4r566B2qR2Llp7iFAkGa-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-46" value="Not Exists" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4r566B2qR2Llp7iFAkGa-41" target="4r566B2qR2Llp7iFAkGa-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-63" value="Unhandled Error" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="4r566B2qR2Llp7iFAkGa-41" target="4r566B2qR2Llp7iFAkGa-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="500" />
+              <mxPoint x="69" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-41" value="Check Probability of Funding not exist&lt;br&gt;for the same month" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="520" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-43" value="Job Ends&lt;br&gt;Update BatchItem&lt;br&gt;&amp;amp; Batch Status" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="520" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4r566B2qR2Llp7iFAkGa-45" target="4r566B2qR2Llp7iFAkGa-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-45" value="Add Record in&lt;br&gt;Prob. Of Funding&lt;br&gt;with Decision&lt;br&gt;DateTime" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="640" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-53" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40" y="520" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-36" value="Auto Decision&lt;br&gt;Job Processor" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="4r566B2qR2Llp7iFAkGa-53">
+          <mxGeometry width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-37" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.communications.3rd_party_service;" vertex="1" parent="4r566B2qR2Llp7iFAkGa-53">
+          <mxGeometry x="90.56" y="60" width="29.44" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-56" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="50" y="760" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-50" value="Reminder &lt;br&gt;Job Processor" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="4r566B2qR2Llp7iFAkGa-56">
+          <mxGeometry width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-51" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.communications.3rd_party_service;" vertex="1" parent="4r566B2qR2Llp7iFAkGa-56">
+          <mxGeometry x="90.56" y="60" width="29.44" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4r566B2qR2Llp7iFAkGa-57" target="4r566B2qR2Llp7iFAkGa-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-57" value="Update&lt;br&gt;BatchItem&lt;br&gt;Process Started" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="760" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4r566B2qR2Llp7iFAkGa-50" target="4r566B2qR2Llp7iFAkGa-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4r566B2qR2Llp7iFAkGa-59" target="4r566B2qR2Llp7iFAkGa-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-59" value="Reminder Logic&lt;br&gt;Create Reminder&lt;br&gt;Pass Override&lt;br&gt;DateTime" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="760" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-61" value="Job Ends&lt;br&gt;Update BatchItem&lt;br&gt;&amp;amp; Batch Status" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="760" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
