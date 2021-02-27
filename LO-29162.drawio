@@ -1,1 +1,71 @@
-<mxfile host="app.diagrams.net" modified="2021-02-27T02:31:05.897Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" version="14.4.3" etag="FSsBk5L3qRdnZ85tjgQk" type="github"><diagram id="-3h6BerCHnD2BclY9v3j">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-02-27T03:08:08.351Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="qeH4WvubtiMLLCuQ67Mn" version="14.4.3" type="github">
+  <diagram id="-3h6BerCHnD2BclY9v3j" name="Page-1">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4r566B2qR2Llp7iFAkGa-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4r566B2qR2Llp7iFAkGa-1" target="4r566B2qR2Llp7iFAkGa-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-1" value="Hangfire" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.call_admission_control_service;" vertex="1" parent="1">
+          <mxGeometry x="40" y="50" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-8" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="160" y="40" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-5" value="RecurringJob&lt;br&gt;Runs at 8:45pm &lt;br&gt;only on these days&lt;br&gt;22nd to 28th of&lt;br&gt;every month" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="4r566B2qR2Llp7iFAkGa-8">
+          <mxGeometry width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-7" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.communications.3rd_party_service;" vertex="1" parent="4r566B2qR2Llp7iFAkGa-8">
+          <mxGeometry x="90.56" y="60" width="29.44" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-11" value="HELOS Admin&lt;br&gt;Trigger w/ date" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4r566B2qR2Llp7iFAkGa-10" target="4r566B2qR2Llp7iFAkGa-5">
+          <mxGeometry x="-0.5258" y="-22" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-10" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.users.administrator;" vertex="1" parent="1">
+          <mxGeometry x="36" y="160" width="58" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-15" value="Today&#39;s Date&amp;nbsp;&lt;br&gt;Is not 3rd Day" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4r566B2qR2Llp7iFAkGa-12" target="4r566B2qR2Llp7iFAkGa-14">
+          <mxGeometry y="-40" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4r566B2qR2Llp7iFAkGa-22" target="4r566B2qR2Llp7iFAkGa-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-23" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;Yes Today is 3rd Day &lt;br&gt;OR&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;Date provided by Admin &lt;br&gt;when job was enqueued&lt;br&gt;then skip 3rd Day &lt;br&gt;Validation Step&lt;br&gt;&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4r566B2qR2Llp7iFAkGa-12" target="4r566B2qR2Llp7iFAkGa-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-12" value="IF Date NOT Provided Job will check is Today PST Date a 3rd Last Business day of the month" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4r566B2qR2Llp7iFAkGa-5" target="4r566B2qR2Llp7iFAkGa-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-14" value="Job Ends" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4r566B2qR2Llp7iFAkGa-16" target="4r566B2qR2Llp7iFAkGa-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-16" value="Calls Stored Proc&lt;br&gt;Passes the Date" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4r566B2qR2Llp7iFAkGa-18" target="4r566B2qR2Llp7iFAkGa-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-18" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.databases.database_server_blue;" vertex="1" parent="1">
+          <mxGeometry x="718.5" y="280" width="43" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-20" value="Returns a List of Loans with ProbabilityFunding Auto Decision &amp;amp;&lt;br&gt;Reminder" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4r566B2qR2Llp7iFAkGa-22" value="Creates A Batch Record with 0 BatchItem" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
